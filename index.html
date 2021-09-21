@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Main Page</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="main_page">MAIN PAGE</h1>
+        </div>
+        <div class="main">
+            <div class="block_1">
+                <style>
+                    /*Ітендифікатор*/
+                    #list {
+                     list-style-type: none;
+                     line-height: 100px;
+                     font-size: 32px;
+                     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                     font-weight: 700;
+                    }
+                   </style>
+                <ol class="list" id="list">
+                    <li class="li_computer">Computer gaming</li>
+                    <li class="li_console">Console gaming</li>
+                    <li class="li_android">Android gaming</li>
+                    <li class="li_ios">iOs gaming</li>
+                    <li class="li_vr">VR gaming</li>
+                </ol>
+            </div>
+            <div class="block_2">
+                <style>
+                    I + B { /* Сусідній селектор */
+                     color: blueviolet;
+                    }
+                    strong > em { /* Дочерний селектор */
+                        color:deepskyblue;
+                    }
+                    li[title] { /* Cелектор атрибута */
+                        color:fuchsia;
+                    }
+                   </style>
+                <h2 class="heading">Text examples</h2>
+                <img src="../LAB_1/img/textbook.png" alt="textbook" width="320" class="figure">
+                <ul class="examples">
+                    <li><i>Italic</i> + <b>blueviolet bold</b> + normal</li>
+                    <li><strong>Strong + <em>deepskyblue em</em>. I like it)</strong></li>
+                    <li title="Пример использования селектора атрибута">I am using attribute selector</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
